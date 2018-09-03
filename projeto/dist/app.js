@@ -2,7 +2,7 @@
 const express = require('express');
 const logger = require('morgan');
 const bodyParser = require('body-parser');
-const personRouter_1 = require('./personRouter');
+const personRouter_1 = require('./routers/personRouter');
 // Criando as configurações para o ExpressJS
 class App {
     constructor() {

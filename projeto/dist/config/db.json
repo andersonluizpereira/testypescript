@@ -1,0 +1,9 @@
+{
+    "user": "myusername", //default is sa
+    "password": "yourStrong(!)Password",
+    "server": "localhost", // for local machine
+    "database": "staging", // name of database
+    "options": {
+        "encrypt": true
+    }
+}

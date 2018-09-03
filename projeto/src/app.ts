@@ -2,7 +2,9 @@ import * as path from 'path';
 import * as express from 'express';
 import * as logger from 'morgan';
 import * as bodyParser from 'body-parser';
-import PersonRouter from './personRouter';
+import PersonRouter from './routers/personRouter';
+
+  
 // Criando as configurações para o ExpressJS
 class App {
 // Instancia dele
@@ -12,6 +14,7 @@ class App {
     this.middleware();
     this.routes();
   }
+
 // Configuração para o nosso middler
   private middleware(): void {
     this.express.use(logger('dev'));
